@@ -1,0 +1,180 @@
+/* CONFIGURAÇÃO BÁSICA DO CSS */
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box; 
+}
+
+:root {
+ --title-font: 'Montserrat', sans-serif;
+ --body-font: 'Open-Sans', sans-serif;
+}
+
+html, body {
+ height: 100%;
+}
+
+div.container{
+max-width: 1280px;
+margin:0 auto;
+padding: 30px auto;
+}
+
+/* ************************************** */
+/* CONFIGURAÇÃO DO ARQUIVO ATUAL DO SITE */
+/* header - Menu superior */
+#menu-superior {
+ background-color: #303030;
+ color: #fff;
+ width: 100%;
+ height: 475px;
+}
+
+#menu-superior > .container {
+ display: flex;
+ flex-direction: column;
+ align-items: start;
+ justify-content: center;
+ height: 100%;
+}
+
+.title-menuSuperior {
+ font-weight: 600;
+ font-size: 60px;
+ line-height: 72px;
+ font-family: var(--title-font);
+}
+
+.sub-title-menuSuperior {
+ font-weight: 500;
+ font-family: var(--body-font);
+ font-size: 20px;
+}
+
+/* section - menu informacional */
+#menu-informacional {
+ width: 100%;
+ height: 229px;
+}
+
+#menu-informacional > .container {
+ height: 100%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+#menu-informacional > .container p {
+ font-family: var(--body-font);
+ font-size: 20px;
+ font-weight: 400;
+ line-height: 28px;
+}
+
+#menu-informacional > .container strong {
+ font-family: var(--body-font);
+ font-size: 40px;
+ font-weight: 600;
+ line-height: 28px;
+}
+
+/* section - sobre */
+#sobre {
+ width: 100%;
+ height: 650px;
+}
+
+#sobre > .container {
+ display: flex;
+ flex-direction: row-reverse;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.box-sobre {
+ display: flex;
+ flex-direction: column;
+ gap: 30px;
+ width: 700px;
+ text-align: center;
+}
+
+img.sobre-img {
+ height: 605px;
+ width: 510px; 
+}
+
+.box-sobre h2 {
+ font-family: var(--title-font);
+ font-size: 30px;
+ font-weight: 500;
+ line-height: 40px;
+}
+
+.box-sobre p {
+ font-family: var(--body-font);
+ font-size: 20px;
+ font-weight: 300;
+ line-height: 30px;
+ text-align: justify;
+}
+
+/* section form */
+#formulario {
+ background-color: #303030;
+ width: 100%;
+ height: 600px; 
+}
+
+#formulario > .container {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ height: 100%;
+}
+
+#formulario > .container h2 {
+ color: #fff;
+ font-family: var(--title-font);
+ font-size: 32px;
+ font-weight: 700;
+ line-height: 48px;
+ padding-top: 80px;
+}
+
+#formulario > .container form {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 50px;
+ height: 100%;
+}
+
+#formulario > .container form input {
+ width: 450px;
+ height: 60px;
+ border: none;
+ border-radius: 10px;
+ padding-left: 8px;
+}
+
+button {
+ background-color: #c07212;
+ color: #fff;
+ width: 280px;
+ height: 60px;
+ border: none;
+ border-radius: 8px;
+ font-family: var(--body-font);
+ font-size: 25px;
+ font-weight: 700;
+ cursor: pointer;
+}
+
+button:hover {
+ transform: translateY(-5px);
+ box-shadow: 0 25px 25px #83643e96;
+ transition-duration: 0.5s;
+}
