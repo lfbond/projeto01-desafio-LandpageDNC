@@ -12,6 +12,12 @@ Acesse a versão ao vivo da aplicação em: [Projeto 01 - DNC](https://lfbond.gi
 - **CSS3**: Estilização e design responsivo.
 - **JavaScript**: Funcionalidade interativa.
 
+## Imagem do Site:
+
+![Captura de tela 2024-09-23 165136](https://github.com/user-attachments/assets/945e3a2b-734d-480f-9683-cf7ab7d8073e)
+![Captura de tela 2024-09-23 165126](https://github.com/user-attachments/assets/57073670-dd74-469d-a032-f04a019eaca7)
+![Captura de tela 2024-09-23 165104](https://github.com/user-attachments/assets/5d1250a8-55de-4089-afbb-f20f2b8c17d4)
+
 ## Funcionalidades
 
 - Interface intuitiva e fácil de usar.
